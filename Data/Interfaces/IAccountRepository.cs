@@ -1,7 +1,7 @@
-﻿using Data.Entities;
+﻿using Microsoft.AspNetCore.Identity;
 
 namespace Data.Interfaces;
 
-public interface IAccountRepository : IBaseRepository<AccountEntity>
+public interface IAccountRepository : IBaseRepository<IdentityUser>
 {
 }
